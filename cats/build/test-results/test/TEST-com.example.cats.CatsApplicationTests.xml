@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cats.CatsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-29T14:40:01" hostname="DESKTOP-NDEMFP9" time="0.505">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.cats.CatsApplicationTests" time="0.505"/>
+  <system-out><![CDATA[15:39:57.190 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cats.CatsApplicationTests]: CatsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:39:57.332 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cats.CatsApplication for test class com.example.cats.CatsApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2024-01-29T15:39:57.741+01:00  INFO 32836 --- [    Test worker] com.example.cats.CatsApplicationTests    : Starting CatsApplicationTests using Java 17.0.10 with PID 32836 (started by bondo in D:\studia\cats)
+2024-01-29T15:39:57.743+01:00  INFO 32836 --- [    Test worker] com.example.cats.CatsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-01-29T15:39:58.408+01:00  INFO 32836 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29T15:39:58.455+01:00  INFO 32836 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2024-01-29T15:39:58.811+01:00  INFO 32836 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-29T15:39:59.011+01:00  INFO 32836 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7829d129-f2f8-46df-8519-e257c69906ce user=SA
+2024-01-29T15:39:59.013+01:00  INFO 32836 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-29T15:39:59.069+01:00  INFO 32836 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29T15:39:59.152+01:00  INFO 32836 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-01-29T15:39:59.156+01:00  INFO 32836 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-01-29T15:39:59.343+01:00  INFO 32836 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-01-29T15:39:59.489+01:00  INFO 32836 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-29T15:39:59.794+01:00  INFO 32836 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-01-29T15:40:00.554+01:00  INFO 32836 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-29T15:40:00.590+01:00  INFO 32836 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29T15:40:01.084+01:00  WARN 32836 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-29T15:40:01.411+01:00  INFO 32836 --- [    Test worker] com.example.cats.CatsApplicationTests    : Started CatsApplicationTests in 3.931 seconds (process running for 5.168)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

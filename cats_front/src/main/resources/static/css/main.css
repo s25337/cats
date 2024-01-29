@@ -1,0 +1,26 @@
+body {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: lavender;
+    }
+
+    .top_bar {
+        background-color: lightpink;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: smaller;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .main_body {
+        border: 1px solid black;
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    <title>New Ccat</title>
+</head>
+<body>
+<p>New Ccat</p>
+<form action="#" th:object="${cat}" th:action="@{/sendCat}" method="POST">
+<div>
+    <label>id</label>
+    <input th:field="*{id}" id = "id" type="input" name="id" required>
+</div>
+    <div>
+        <label>name</label>
+        <input th:field="*{name}" id="name" type="input" name="name" required>
+    </div>
+    <div>
+        <label>name</label>
+        <input th:field="*{race}" id="race" type="input" name="race" required>
+    </div>
+    <button type="submit">save</button>
+</form>
+</body>
+</html>

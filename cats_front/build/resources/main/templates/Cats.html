@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all cats</title>
+  <link rel="stylesheet" href="../static/css/main.css">
+</head>
+<body>
+<table>
+  <thead>
+  <th>id</th>
+  <th>name</th>
+  <th>race</th>
+  </thead>
+  <tbody>
+  <tr th:each="cat : ${cats}">
+    <td th:text="${cat.id}"></td>
+    <td th:text="${cat.name}"></td>
+    <td th:text="${cat.race}"></td>
+  </tr>
+  </tbody>
+</table>
+
+
+</body>
+</html>
