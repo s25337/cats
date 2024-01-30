@@ -43,7 +43,7 @@ public class MyRestController {
     public void deleteCat(@PathVariable long id) {
         service.deleteCatById(id);
     }
-    @PutMapping("/edit/{id}")
+    @PutMapping("/edit")
     public Cat editCat(@RequestBody Cat cat) {return service.editCat(cat);}
 
 

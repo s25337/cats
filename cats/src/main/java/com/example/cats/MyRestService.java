@@ -47,7 +47,7 @@ public class MyRestService {
 
 
     public void sendCat(Cat cat) {
-        if
+
         this.repository.save(cat);
     }
 
@@ -56,7 +56,7 @@ public class MyRestService {
     }
 
     public Cat editCat(Cat cat) {
-        this.repository.deleteCatById(cat.getId());
+    //    this.repository.deleteCatById(cat.getId());
          this.repository.save(cat);
         return cat;
     }
